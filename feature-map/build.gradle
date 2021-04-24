@@ -35,6 +35,14 @@ android {
 
 dependencies {
 
+    implementation project(':core-common')
+    implementation project(':core-db')
+    implementation project(':component-manager')
+
+    implementation appCompat
+    implementation material
+    implementation navigation
+
     implementation kotlin
     implementation coroutines
 
