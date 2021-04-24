@@ -1,0 +1,3 @@
+include ':app'
+include ':component-manager'
+rootProject.name = "component-manager"
