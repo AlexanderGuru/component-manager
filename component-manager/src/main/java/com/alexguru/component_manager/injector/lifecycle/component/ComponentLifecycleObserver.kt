@@ -7,7 +7,7 @@ import com.alexguru.component_manager.injector.listeners.ComponentRemoveListener
 /**
  * Слушатель ЖЦ component, в момент уничтожения component вызывает removeCallback()
  */
-class DomainComponentLifecycleObserver(
+class ComponentLifecycleObserver(
     injector: Injector<*, *>,
     removeCallback: () -> Unit
 ) : ObjectLifecycleObserver<Injector<*, *>>(injector, removeCallback), ComponentRemoveListener {

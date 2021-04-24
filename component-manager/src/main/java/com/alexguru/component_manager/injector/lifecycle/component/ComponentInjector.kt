@@ -4,10 +4,10 @@ import com.alexguru.component_manager.injector.Injector
 import com.alexguru.component_manager.injector.lifecycle.ObjectLifecycleInjector
 import kotlin.reflect.KClass
 
-abstract class DomainComponentInjector<Value : Any>(
+abstract class ComponentInjector<Value : Any>(
     type: KClass<Value>
 ) : ObjectLifecycleInjector<Injector<*, *>, Value>(type) {
 
     override fun createLifecycleObserver(obj: Injector<*, *>, removeCallback: () -> Unit) =
-        DomainComponentLifecycleObserver(obj, removeCallback)
+        ComponentLifecycleObserver(obj, removeCallback)
 }
