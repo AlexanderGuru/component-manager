@@ -1,3 +1,4 @@
+include ':core_location'
 include ':app'
 include ':component-manager'
 rootProject.name = "component-manager"
