@@ -1,4 +1,7 @@
-include ':core_location'
+include ':service-location'
+include ':core-db'
+include ':feature-map'
+include ':core-common'
 include ':app'
 include ':component-manager'
 rootProject.name = "component-manager"

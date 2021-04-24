@@ -1,0 +1,118 @@
+ext {
+    // Room
+    roomVersion = '2.2.6'
+    room = ["androidx.room:room-runtime:$roomVersion",
+            "androidx.room:room-ktx:$roomVersion"]
+
+    roomCompiler = "androidx.room:room-compiler:$roomVersion"
+
+    // Navigation
+    navigationVersion = '2.3.3'
+    multipleToolbarsVersion = '0.0.4'
+    navigation = ["androidx.navigation:navigation-fragment-ktx:$navigationVersion",
+                  "androidx.navigation:navigation-ui-ktx:$navigationVersion",
+                  "com.github.AlexanderGuru:MultipleToolbars:$multipleToolbarsVersion"]
+
+    // Lifecycle
+    lifecycleVersion = '2.3.1'
+    lifecycle = ["androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion",
+                 "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycleVersion",
+                 "androidx.lifecycle:lifecycle-service:$lifecycleVersion"]
+
+    // ViewModel
+    viewModel = ["androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion"]
+
+    // WorkManager
+    workVersion = '2.5.0'
+    workManager = "androidx.work:work-runtime-ktx:$workVersion"
+    workManagerJava = "androidx.work:work-runtime:$workVersion"
+    workManagerRxJava2 = "androidx.work:work-rxjava2:$workVersion"
+
+    // Dagger2
+    daggerVersion = '2.33'
+    dagger = "com.google.dagger:dagger:$daggerVersion"
+    daggerCompiler = "com.google.dagger:dagger-compiler:$daggerVersion"
+
+    // Delegate
+    delegateVersion = '4.3.0'
+    delegateAdapter = "com.hannesdorfmann:adapterdelegates4-kotlin-dsl:$delegateVersion"
+    pagingDelegateAdapter = "com.hannesdorfmann:adapterdelegates4-pagination:$delegateVersion"
+
+    // Kotlin
+    kotlinVersion = '1.4.31'
+    kotlinCoreVersion = '1.3.2'
+    kotlin = [
+            "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion",
+            "androidx.core:core-ktx:$kotlinCoreVersion"
+    ]
+
+    // Coroutines
+    coroutinesVersion = '1.4.3'
+    coroutines = ["org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion",
+                  "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutinesVersion"]
+
+    // Okhttp
+    okhttpVersion = '4.9.0'
+    okhttp = [
+            "com.squareup.okhttp3:logging-interceptor:$okhttpVersion",
+            "com.squareup.okhttp3:okhttp:$okhttpVersion",
+            "com.squareup.okhttp3:okhttp-urlconnection:$okhttpVersion"
+    ]
+
+    // Retrofit
+    retrofitVersion = '2.9.0'
+    retrofit = "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    retrofitGson = "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+    retrofitRxJava = "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
+
+    network = [
+            "com.squareup.retrofit2:retrofit:$retrofitVersion",
+            "com.squareup.retrofit2:converter-gson:$retrofitVersion",
+            "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
+    ]
+
+    // Constraint Layout
+    constraintVersion = '2.0.4'
+    constraintLayout = "androidx.constraintlayout:constraintlayout:$constraintVersion"
+
+    appCompatVersion = '1.2.0'
+    appCompat = "androidx.appcompat:appcompat:$appCompatVersion"
+    gsonVersion = '2.8.6'
+    gson = "com.google.code.gson:gson:$gsonVersion"
+
+    materialVersion = '1.2.0'
+    material = "com.google.android.material:material:$materialVersion"
+
+    // Yandex maps
+    mapkitVersion = '3.4.0'
+    mapkit = "com.yandex.android:mapkit:$mapkitVersion"
+    directions = "com.yandex.android:directions:$mapkitVersion"
+
+    // Material
+    materialVersion = '1.3.0'
+    material = "com.google.android.material:material:$materialVersion"
+
+    // Recycler View
+    recyclerViewVersion = '1.1.0'
+    recyclerView = "androidx.recyclerview:recyclerview:$recyclerViewVersion"
+
+    viewBindingVersion = '1.4.5'
+    viewBinding = "com.github.kirich1409:viewbindingpropertydelegate-noreflection:$viewBindingVersion"
+
+
+    // Tests
+    junitVersion = '4.13.1'
+    testRunner = '1.3.0'
+    testEspresso = '3.3.0'
+    junit = "junit:junit:$junitVersion"
+    espresso = ["androidx.test:runner:$testRunner",
+                "androidx.test.espresso:espresso-core:$testEspresso"]
+
+    fragmentVersion = '1.3.0'
+    fragment = "androidx.fragment:fragment-ktx:$fragmentVersion"
+    fragmentJava = "androidx.fragment:fragment:$fragmentVersion"
+
+    activityVersion = '1.2.0-rc01'
+    activity = "androidx.activity:activity-ktx:$activityVersion"
+    activityJava = "androidx.activity:activity:$activityVersion"
+}
